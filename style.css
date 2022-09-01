@@ -111,13 +111,35 @@ header{
     width: 91px;
     height: 48px;
 }
-.crear span{
+.crear button{
+    background-color: white;
+    border:none;
     color: #111111;
     font-size: 16px;
     font-family: var(--font-family);
     font-weight: 600;
+    width: 91px;
+    height: 48px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.crear button img{
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.crear button:active{
+    background-color: #111111;
+    border-radius: 24px;
+    color: white;
+}
+.crear button:active img{
+    filter: invert(100%) sepia(0%) saturate(7494%) hue-rotate(153deg) brightness(113%) contrast(101%);
+}
+
 .container-crear-icon{
     width: 12px;
     height: 12px;
